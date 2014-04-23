@@ -39,6 +39,10 @@ img, video {
   margin: 0 auto;
 }
 
+.center {
+  margin: 0 auto;
+}
+
 img.resize {
   height: 90%;
 }
@@ -51,9 +55,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
-    list-style: none;
-}
+
 blockquote, q {
     quotes: none;
 }
@@ -209,16 +211,6 @@ body     { pointer-events: none; }
     -ms-transform:     translateZ(20px);
     -o-transform:      translateZ(20px);
     transform:         translateZ(20px);
-}
-
-#title h1 {
-    font-size: 190px;
-
-    -webkit-transform: translateZ(50px);
-    -moz-transform:    translateZ(50px);
-    -ms-transform:     translateZ(50px);
-    -o-transform:      translateZ(50px);
-    transform:         translateZ(50px);
 }
 
 #title .footnote {
